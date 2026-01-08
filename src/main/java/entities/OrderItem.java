@@ -45,10 +45,9 @@ public class OrderItem {
 
     @Override
     public String toString() {
-        return "OrderItem{" +
-                "quantity=" + quantity +
-                ", price=" + price +
-                ", product=" + product +
-                '}';
+        return "Ordem de pedido: " +
+                "quantidade: " + quantity +
+                ", preço: " + price +
+                ", produto: " + product;
     }
 }
